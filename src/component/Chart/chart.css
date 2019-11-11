@@ -1,0 +1,28 @@
+.chart-less {
+    display: inline-block;
+    width: 800px;
+    border: .2rem solid #ececec;
+    padding: 1%;
+    margin-top: 1%;
+}
+
+.pie {
+    position: relative;
+    margin-right: 1%;
+}
+
+.r-boos-spinner {
+    display: inline-block;
+    position: absolute;
+    top: 5%;
+    right: 2%;
+}
+
+.h1-count-info {
+    display: inline-block;
+}
+
+.content-tab-boos {
+    margin-top: 3%;
+    margin-left: 3%;
+}
