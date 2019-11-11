@@ -2,13 +2,21 @@
     display: inline-block;
     width: 800px;
     border: .2rem solid #ececec;
-    padding: 1%;
     margin-top: 1%;
 }
 
 .pie {
     position: relative;
     margin-right: 1%;
+}
+
+.line-chart-graph {
+    height: 300px;
+    display: inline-block;
+    width: 400px;
+    border: .2rem solid #ececec;
+    margin-top: 1%;
+    vertical-align: top;
 }
 
 .r-boos-spinner {
