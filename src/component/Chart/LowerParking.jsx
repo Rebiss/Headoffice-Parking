@@ -8,10 +8,9 @@ import './chart.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const LowerParking = () => {
-	const [ caunt, setCaunt ] = useState(39);
+	const [caunt, setCaunt] = useState(39);
 	const [open, setOpen] = useState(false)
-	const percent = Math.round(caunt * 100 / CAR_CAUNT_T);
-	const [ doughnut, setDoughnut ] = useState({
+	const [doughnut, setDoughnut] = useState({
 		labels: [ 'Busy', 'Free' ],
 		datasets: [
 			{
@@ -21,6 +20,7 @@ const LowerParking = () => {
 		]
 	});
 
+	const percent = Math.round(caunt * 100 / CAR_CAUNT_T);
 	const handleOpenButton = () => { setOpen(!open) }
 
 	return (

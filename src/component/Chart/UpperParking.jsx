@@ -8,10 +8,9 @@ import './chart.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const UpperParking = () => {
-	const [ caunt, setCaunt ] = useState(315);
+	const [caunt, setCaunt] = useState(315);
 	const [open, setOpen] = useState(false);
-	const percent = Math.round(caunt * 100 / CAR_CAUNT_D);
-	const [ doughnut, setDoughnut ] = useState({
+	const [doughnut, setDoughnut] = useState({
 		labels: [ 'Busy', 'Free' ],
 		datasets: [
 			{
@@ -21,6 +20,7 @@ const UpperParking = () => {
 		]
 	});
 
+	const percent = Math.round(caunt * 100 / CAR_CAUNT_D);
 	const handleOpenButton = () => { setOpen(!open) }
 
 	return (
@@ -28,8 +28,7 @@ const UpperParking = () => {
 			<div className="pie chart-less">
 				<div className="r-boos-spinner">
 					<Button onClick={handleOpenButton} variant="light" className='btn-static-coo'>Static</Button>
-					<Card bg="light" text="dark" style={{ width: '16rem' }}>
-						
+					<Card bg="light" text="dark" style={{ width: '16rem' }}>	
 						<Card.Body>
 							<h1 className="h1-count-info ">
 								<Badge pil variant="light">
@@ -38,12 +37,10 @@ const UpperParking = () => {
 							</h1>
 							<Spinner animation="grow" variant="danger" />
 							<Card.Title>Тhe Upper Parking</Card.Title>
-							
 						</Card.Body>
-						
 					</Card>
 					<div>
-						<ProgressBar animated variant="danger" now={`${percent}`} label={`${percent}%`} />
+						<ProgressBar animated variant="danger" now={`${percent}`} label={`${percent}%`}/>
 					</div>
 				</div>
 				<Doughnut
