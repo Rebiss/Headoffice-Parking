@@ -34,3 +34,11 @@
     margin-top: 3%;
     margin-left: 3%;
 }
+
+.btn-static-coo {
+    width: 100%;
+    width: 100%;
+    background-color: #fff !important;
+    outline: #fff;
+    margin-bottom: 1px;
+}
