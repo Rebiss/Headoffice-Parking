@@ -7,8 +7,6 @@ import { LineChart } from 'react-chartkick';
 import './chart.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-// rgba(54, 162, 235, 0.6)
-
 const UpperParking = () => {
 	const [ caunt, setCaunt ] = useState(315);
 	const [open, setOpen] = useState(false);

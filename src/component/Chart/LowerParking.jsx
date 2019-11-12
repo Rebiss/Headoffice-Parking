@@ -15,8 +15,8 @@ const LowerParking = () => {
 		labels: [ 'Busy', 'Free' ],
 		datasets: [
 			{
-				data: [ `${caunt}`, `${CAR_CAUNT_T - caunt}` ],
-				backgroundColor: [ 'rgba(255, 0, 0, 1)', 'rgba(192, 226, 236, 0.6)' ]
+				data: [`${caunt}`, `${CAR_CAUNT_T - caunt}`],
+				backgroundColor: ['rgba(255, 0, 0, 1)', 'rgba(192, 226, 236, 0.6)']
 			}
 		]
 	});
