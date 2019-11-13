@@ -13,6 +13,8 @@ const SendBoxChart = () => {
 				<Tab eventKey="Тhe Upper Parking" title="Тhe Upper Parking">
 					<UpperParking />
 				</Tab>
+			</Tabs>
+			<Tabs defaultActiveKey="Lower Parking" id="uncontrolled-tab-example">
 				<Tab eventKey="Lower Parking" title="Lower Parking">
 					<LowerParking />
 				</Tab>

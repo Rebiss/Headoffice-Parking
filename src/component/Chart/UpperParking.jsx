@@ -23,13 +23,16 @@ const UpperParking = () => {
 
 	useEffect(() => {
 		const interval = setInterval(async () => {
-			const response = await fetch('http://localhost:9011/count');
+			const response = await fetch('http://localhost:9011/lower');
 
 			if (response.status === 200) {
 				const { data } = await response.json();
-				setCaunt(data);
+				if (data < CAR_CAUNT_D) {
+					console.log('***LOwer**', data);
+					setCaunt(data);
+				}
 			}
-		}, 5000);
+		}, 9000);
 	}, []);
 
 	const handleOpenButton = () => {
