@@ -1,7 +1,7 @@
 import React, { Fragment, useState, useEffect } from 'react';
 import { Doughnut } from 'react-chartjs-2';
 import { Spinner, Badge, Card, ProgressBar, Button } from 'react-bootstrap';
-import { CAR_CAUNT_T, STATIC_DATA } from '../config/state.config';
+import { CAR_CAUNT_T, STATIC_DATA, TIME } from '../config/state.config';
 import { LineChart } from 'react-chartkick';
 
 import './chart.css';
@@ -31,7 +31,7 @@ const LowerParking = () => {
 					setCaunt(data);
 				}
 			}
-		}, 9000);
+		}, TIME);
 	}, []);
 
 	const percent = Math.round(caunt * 100 / CAR_CAUNT_T);

@@ -1,0 +1,29 @@
+{
+  "name": "headoffice-parking",
+  "version": "1.0.0",
+  "description": "Camlytics is multi-camera management, recording and video analysis software, that has a wide range of applications: people counting, vehicle counting, retail analytics, traffic analytics, complicated motion alarms, video events generation via API or webhooks, video events recording. Camlytics can be also used for simple recording suitable for home and business. It also has many instruments for collecting statistics and building heatmaps and track maps. Capabilities that Camlytics offers can be extremely useful in such industries as retail, transport or security. Compared to bulky and expensive enterprise surveillance solutions, Camlytics is a really budget lightweight software that can be used with any cheap webcam or IP camera.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.betconstruct.int:headoffice-parking/headoffice-parking.git"
+  },
+  "author": "Andranik Barseghyan",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "mongodb": "^3.3.3",
+    "mongoose": "^5.7.7",
+    "node-fetch": "^2.6.0",
+    "static-asset": "^0.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}

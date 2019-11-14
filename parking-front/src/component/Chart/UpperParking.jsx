@@ -1,7 +1,7 @@
 import React, { Fragment, useState, useEffect } from 'react';
 import { Doughnut } from 'react-chartjs-2';
 import { Spinner, Badge, Card, ProgressBar, Button } from 'react-bootstrap';
-import { CAR_CAUNT_D, STATIC_DATA } from '../config/state.config';
+import { CAR_CAUNT_D, STATIC_DATA, TIME } from '../config/state.config';
 import { LineChart } from 'react-chartkick';
 
 import './chart.css';
@@ -32,7 +32,7 @@ const UpperParking = () => {
 					setCaunt(data);
 				}
 			}
-		}, 9000);
+		}, TIME);
 	}, []);
 
 	const handleOpenButton = () => {

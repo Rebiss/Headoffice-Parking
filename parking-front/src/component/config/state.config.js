@@ -1,6 +1,6 @@
-
-export const CAR_CAUNT_D = 360;
-export const CAR_CAUNT_T = 130;
+export const TIME = 30000;
+export const CAR_CAUNT_D = 460;
+export const CAR_CAUNT_T = 135;
 export const STATIC_DATA = {
     '2019-11-12': 296,
 	'2019-11-13': 306,
