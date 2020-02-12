@@ -21,7 +21,7 @@
     "mongodb": "^3.3.3",
     "mongoose": "^5.7.7",
     "node-fetch": "^2.6.0",
-    "node-gyp": "^6.0.1",
+    "node-gyp": "^6.1.0",
     "static-asset": "^0.6.0"
   },
   "devDependencies": {
