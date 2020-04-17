@@ -1,4 +1,4 @@
-```bash
+
 .
 ├───app
 │   ├───actions
@@ -30,4 +30,4 @@
 ├───Monitoring
 └───Smash
     └───Libs
-```
+
